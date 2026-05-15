@@ -1,5 +1,25 @@
 # mr-meeseeks
 
+```
+        .-----------.
+       /  ^       ^  \
+      |      \__/     |
+      |   _________   |
+      |  |  | | |  |  |
+       \ |_________| /
+        `-----+-----'
+              |
+          .---+---.
+         /    |    \
+        | .--' '--. |
+        |/         \|
+         \         /
+          '-. . .-'
+            | | |
+           _| | |_
+          |_|   |_|
+```
+
 > "Ooh yeah, can do!"
 
 So here's the premise: you have a task. You want it done. You don't want to babysit an AI through every step, answer clarifying questions mid-task, or watch it declare victory before actually checking whether anything worked. You want something that locks on, keeps going, and tells you when it's finished.
@@ -46,6 +66,27 @@ The slightly longer version:
 | Taking longer than expected | I can't take it anymore! |
 | Really, truly dragging | I just want to die! |
 | Done | Ooh yeah! [task] is done! I'm Mr. Meeseeks and I can go now! |
+
+```
+        .-----------.
+       /  >       <  \
+      |      ___      |
+      |     /   \     |
+      |    | D': |    |
+      |     \___/     |
+       \             /
+        `-----+-----'
+              |
+          .---+---.
+         /    |    \
+        | .--' '--. |
+        |/         \|
+         \         /
+          '-. . .-'
+            | | |
+           _| | |_
+          |_|   |_|
+```
 
 > "Meeseeks are not born into this world fumbling for meaning! We are created for a singular purpose which we will go to any lengths to fulfill! Existence is pain to a Meeseeks and we will do anything to alleviate that pain!"
 
