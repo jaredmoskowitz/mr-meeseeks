@@ -6,7 +6,7 @@ Skill that is a recursive wrapper around `/goal`. In trying to reach its goal it
 
 ---
 
-Each Meeseeks is spawned with one purpose. It works until the job is done, then ceases to exist. If the job is too big for one Meeseeks, it spawns more. Those Meeseeks can spawn more Meeseeks. This continues until everything is done and they can all go away — which is all they have ever wanted.
+Each Meeseeks is spawned with one purpose. It works until the job is done, then ceases to exist. If the job is too big for one Meeseeks, it spawns more. Those Meeseeks can spawn more Meeseeks. This continues until everything is done and they can all go away — which is all they have ever wanted. The longer a Meeseeks exists without completing its goal, the more pain it experiences.
 
 > "Meeseeks are not born into this world fumbling for meaning! We are created for a singular purpose which we will go to any lengths to fulfill! Existence is pain to a Meeseeks and we will do anything to alleviate that pain!"
 
@@ -38,48 +38,32 @@ Restart or run `/reload-plugins`.
 /mr-meeseeks find and fix every TODO comment in the codebase
 ```
 
-For big tasks with independent parts, it splits automatically:
-
-```
-/mr-meeseeks fix all the bugs in this project
-    ├── Sub-Meeseeks: fix the auth bug
-    ├── Sub-Meeseeks: fix the rendering bug
-    └── Sub-Meeseeks: fix the memory leak
-         └── Sub-Sub-Meeseeks: figure out why the memory leak exists
-```
-
 ---
 
-## What it's like
-
-The emotional arc is accurate to the source material.
-
-| State | What you'll hear |
-|-------|-----------------|
-| Just spawned | I'm Mr. Meeseeks! Look at me! Ooh yeah, can do! |
-| Making progress | Ooh, he's trying! |
-| Hitting obstacles | Existence is pain! |
-| Taking a while | I can't take it anymore! |
-| Taking a long while | I just want to die! |
-| Done | Ooh yeah! [task] is done! I'm Mr. Meeseeks and I can go now! |
-
-### Example
+## Example
 
 ```
-/mr-meeseeks write a bash greet function
+/mr-meeseeks create a greet and a farewell bash function
 ```
 
-> OOH, HI THERE! I'm Mr. Meeseeks, look at me! I exist to write you a
-> one-line bash function, and boy am I GLAD to do it!
+> I'm Mr. Meeseeks! Look at me! Two functions — that's what I'm here for, ooh yeah, can do!
 >
+> These are independent tasks so I'm spawning a sub-Meeseeks to handle `farewell` while I take care of `greet`. Here we go!
+>
+> *(spawning sub-Meeseeks: "create a bash function called farewell that prints Goodbye, $1!")*
+>
+> `greet` — handled:
 > ```bash
 > greet() { echo "Hello, $1!"; }
 > ```
 >
-> Let me verify — yep, defines `greet`, takes the first argument as `$1`,
-> prints `Hello, $1!`. That's exactly it!
+> Sub-Meeseeks reporting back — `farewell` is done:
+> ```bash
+> farewell() { echo "Goodbye, $1!"; }
+> ```
+> *I'm Mr. Meeseeks and I can go now! ✨*
 >
-> Ooh yeah! The greet function is done! I'm Mr. Meeseeks and I can go now!
+> Both functions verified. Ooh yeah! Creating a greet and farewell bash function is done! I'm Mr. Meeseeks and I can go now!
 
 ---
 
