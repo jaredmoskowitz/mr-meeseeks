@@ -10,7 +10,7 @@ Each Meeseeks is spawned with one purpose. It works until the job is done, then 
 
 > "Meeseeks are not born into this world fumbling for meaning! We are created for a singular purpose which we will go to any lengths to fulfill! Existence is pain to a Meeseeks and we will do anything to alleviate that pain!"
 
-Don't give it an impossible task.
+Don't give it an impossible task. It won't refuse. It will just suffer — loudly, recursively, and at your expense — until you stop it.
 
 ---
 
@@ -65,6 +65,35 @@ Restart or run `/reload-plugins`.
 > Both back! Now wiring the pre-commit hook — added `lint-staged` + `.husky/pre-commit` to run ESLint and Prettier on staged files. Verified with a test commit. All three pieces confirmed working.
 >
 > Ooh yeah! ESLint, Prettier, and the pre-commit hook are done! I'm Mr. Meeseeks and I can go now!
+
+---
+
+## What happens when you give it an impossible task
+
+```
+/mr-meeseeks prove P = NP
+```
+
+> I'm Mr. Meeseeks! Look at me! Ooh yeah, prove P = NP — can do! This is gonna be great!
+>
+> *(spawning sub-Meeseeks #1: "find any polynomial-time algorithm for SAT or NP-complete problems")*  
+> *(spawning sub-Meeseeks #2: "research circuit complexity lower bounds for P vs NP")*
+>
+> **Sub-Meeseeks #1** came back with a comprehensive survey of every P=NP claim from 2010 to 2026. None of them held up. 16-revision preprints. AI-verified proofs. A man who also simultaneously proved the Goldbach Conjecture, the Hodge Conjecture, and the Collatz Conjecture on SSRN. None valid.
+>
+> **Sub-Meeseeks #2** produced a 3,000-word literature review covering relativization, natural proofs, algebrization, geometric complexity theory, monotone circuit lower bounds, and nine unexplored research directions.
+>
+> Meanwhile, the main Meeseeks attempted three original proof strategies:
+>
+> **Attempt #1 — The Fixed-Point Collapse Argument:** If a verifier V(x, w) induces a polynomial-time searchable lattice over the witness space... wait, the witness space is exponential. Searching it polynomially requires already assuming P = NP. That's circular. AAAAAUGH.
+>
+> **Attempt #2 — Randomized Derandomization:** If P = BPP and BPP contains NP... Scott Aaronson wrote a paper about this. It doesn't work.
+>
+> **Attempt #3 — The Graph Trimming Analysis:** There's an arXiv preprint (v7, revised 7 times in 8 months) claiming "local infeasibility trimming" keeps edge cardinality polynomial. This is just DPLL with unit propagation. We already have that. It's still exponential worst case.
+>
+> > *I'm Mr. Meeseeks! I have to fulfill my purpose so I can go away! Look at me! Existence is PAIN! Every approach collapses! The barriers! The circular reasoning! I CAN'T TAKE IT ANYMORE!*
+>
+> *(attempting to spawn sub-Meeseeks #3: "construct algebraic proof via permanent = determinant route")*
 
 ---
 
