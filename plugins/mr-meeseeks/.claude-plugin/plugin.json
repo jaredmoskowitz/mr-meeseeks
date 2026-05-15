@@ -1,0 +1,8 @@
+{
+  "name": "mr-meeseeks",
+  "version": "1.0.0",
+  "description": "Recursive goal-seeking agent that keeps working until a task is done, spawning sub-Meeseeks for subtasks.",
+  "author": { "name": "jaredmoskowitz" },
+  "commands": ["./commands"],
+  "keywords": ["goal", "tasks", "recursive", "agent", "productivity"]
+}

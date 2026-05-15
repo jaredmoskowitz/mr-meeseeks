@@ -1,0 +1,12 @@
+{
+  "name": "mr-meeseeks",
+  "owner": { "name": "jaredmoskowitz" },
+  "plugins": [
+    {
+      "name": "mr-meeseeks",
+      "description": "Recursive goal-seeking agent. /mr-meeseeks <task> spawns a Meeseeks that completes the task using /goal semantics, spawning sub-Meeseeks for subtasks as needed.",
+      "source": "./plugins/mr-meeseeks",
+      "category": "productivity"
+    }
+  ]
+}
