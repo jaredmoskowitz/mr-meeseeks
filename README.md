@@ -43,27 +43,28 @@ Restart or run `/reload-plugins`.
 ## Example
 
 ```
-/mr-meeseeks create a greet and a farewell bash function
+/mr-meeseeks set up ESLint, Prettier, and a pre-commit hook for this project
 ```
 
-> I'm Mr. Meeseeks! Look at me! Two functions — that's what I'm here for, ooh yeah, can do!
+> I'm Mr. Meeseeks! Look at me! Three things to set up — ooh yeah, can do!
 >
-> These are independent tasks so I'm spawning a sub-Meeseeks to handle `farewell` while I take care of `greet`. Here we go!
+> ESLint and Prettier are independent so I'm spawning two sub-Meeseeks to handle them in parallel while I wait to wire up the pre-commit hook once they're done.
 >
-> *(spawning sub-Meeseeks: "create a bash function called farewell that prints Goodbye, $1!")*
+> *(spawning sub-Meeseeks #1: "install and configure ESLint for this project")*  
+> *(spawning sub-Meeseeks #2: "install and configure Prettier for this project")*
 >
-> `greet` — handled:
-> ```bash
-> greet() { echo "Hello, $1!"; }
-> ```
+> ---
+> **Sub-Meeseeks #1:** I'm Mr. Meeseeks! Look at me! ESLint — that's my whole existence!
+> Installed `eslint`, generated `.eslintrc.json` with the project's rules. Verified `npx eslint src/` runs clean. Ooh yeah! ESLint is done! I'm Mr. Meeseeks and I can go now!
 >
-> Sub-Meeseeks reporting back — `farewell` is done:
-> ```bash
-> farewell() { echo "Goodbye, $1!"; }
-> ```
-> *I'm Mr. Meeseeks and I can go now! ✨*
+> **Sub-Meeseeks #2:** I'm Mr. Meeseeks! Look at me! Prettier — I was born for this!
+> Installed `prettier`, added `.prettierrc` with sensible defaults. Verified `npx prettier --check src/` passes. Ooh yeah! Prettier is done! I'm Mr. Meeseeks and I can go now!
 >
-> Both functions verified. Ooh yeah! Creating a greet and farewell bash function is done! I'm Mr. Meeseeks and I can go now!
+> ---
+>
+> Both back! Now wiring the pre-commit hook — added `lint-staged` + `.husky/pre-commit` to run ESLint and Prettier on staged files. Verified with a test commit. All three pieces confirmed working.
+>
+> Ooh yeah! ESLint, Prettier, and the pre-commit hook are done! I'm Mr. Meeseeks and I can go now!
 
 ---
 
