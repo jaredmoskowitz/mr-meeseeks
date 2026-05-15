@@ -1,24 +1,5 @@
-# mr-meeseeks
+<img width="300" alt="MrMeeseeks-render" src="https://github.com/user-attachments/assets/2cf3928a-789c-4afb-9fba-ec10f3d70d8a" />
 
-```
-        .-----------.
-       /  ^       ^  \
-      |      \__/     |
-      |   _________   |
-      |  |  | | |  |  |
-       \ |_________| /
-        `-----+-----'
-              |
-          .---+---.
-         /    |    \
-        | .--' '--. |
-        |/         \|
-         \         /
-          '-. . .-'
-            | | |
-           _| | |_
-          |_|   |_|
-```
 
 > "Ooh yeah, can do!"
 
